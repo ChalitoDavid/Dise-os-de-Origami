@@ -1,0 +1,54 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color:#00ff7b;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+body{
+    margin: 0px;
+    /* modify background color here*/
+    background-color:#ffa3a3;
+    
+}
+
+
+.grid{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: 50px;
+    font-family: Josefin;
+    
+    
+}
+.grid div{
+    margin: 20px;
+    position: relative; 
+}
+.grid img{
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+}
+.grid img:hover{
+    width: 150px;
+    height: 150px;
+   transition: opacity 0.5s linear;
+   opacity: 0.3;
+}
+.origami {
+    
+    border-radius: 20px;
+    background-color: #ffffff;
+    /* modify margin and padding here*/
+    padding: 100px;
+    margin: 0px;
+    width:310px;
+    font-family: fantasy;
+    
+}
+
